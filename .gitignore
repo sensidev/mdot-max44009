@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
+# System
+.DS_Store
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE
+/.idea/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Build
+/BUILD/
+/cmake-build-debug/
+.temp
+.mbed
+mbed*.py*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Libraries
+/mbed-os/
+# Ignore only libs' folders, but keep .lib files - where the lib repo & version/commit sha is stored.
+/libs/*/
